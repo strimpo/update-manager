@@ -9,4 +9,5 @@ pause
 goto checkfile
 
 :checkfile
-set filecheck=win
+set filecheck=\gui\menu.bat \cmd\startup\check\req\os\doc.txt \cmd\startup\check\req\os\wifisetup.xml \cmd\startup\check\req\external\cd.txt \cmd\startup\check\req\internal\motherboard.txt \cmd\startup\check\req\internal\ram
+
