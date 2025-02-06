@@ -4,6 +4,9 @@ echo Detected WAU version:
 echo.
 echo Windows Advanced Updater 1.0.1
 echo.
-echo This program is protected under AGPL4-3.0
+echo This program is protected under AGPL-3.0.
+pause
+goto checkfile
 
-set filecheck
+:checkfile
+set filecheck=win
